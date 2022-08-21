@@ -11,6 +11,13 @@ Hope you like my project !!
 - Clone Website
 - Hosted on Netlify
 
+## Screenshots
+
+![](./assets/Screenshot%20(21).png)
+![](./assets/Screenshot%20(22).png)
+![](./assets/Screenshot%20(23).png)
+![](./assets/Screenshot%20(24).png)
+
 # [Live-Link](https://rodeclonep.netlify.app/)
 
 ## What i have learnt By working on this project
