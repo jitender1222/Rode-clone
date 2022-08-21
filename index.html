@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rode-Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                white:'#ffffff',
+                black:'#000000',
+                grey:'#758283',
+                themecolor: '#AC9870',
+                lightgrey:'#00000080',
+                lightgray:'#d3d3d3d3'
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="flex justify-between p-2">
+        <div class="">
+            <img src="./assets/ham.png" class="w-5 border-4 mt-3 md: mt-3 w-5 xl:hidden" alt="">
+        </div>
+        <div class="flex relative right-8 mt-2 md:right-28 lg:right-40 xl:right-[40%]">
+        <i class="fa-solid fa-location-dot mt-1"></i>
+        <p>EN</p>
+        <i class="fa-solid fa-caret-down mt-1"></i>
+    </div>
+
+    <div class="flex p-2 space-x-20 justify-between relative right-5 md:flex 
+    p-2 space-x-20 w-[60%] justify-between relative right-5 xl:hidden">
+        <img src="./assets/logo.svg" class="w-20 " alt="">
+        <img src="./assets/search.png" class="w-3" alt="">
+    </div>
+
+    <div class="hidden xl:block mr-16">
+        <i class="fa-solid fa-user mr-10"></i>
+    </div>
+    </header>
+    <p class="w-full border"></p>
+
+    <!-- ******************************************Navbar ********************************************* -->
+    <nav >
+        <div class="hidden md:hidden xl:block">
+        <div class="flex p-4 justify-around  sm:">
+        <img src="./assets/logo.svg" class="w-20" alt="">
+        <ul class= "sm:hidden xl:flex space-x-12">
+            <li>PRODUCTS</li>
+            <li>USER GUIDES</li>
+            <li>SOLUTIONS</li>
+            <li>APPAREL</li>
+            <li>SUPPORT</li>
+        </ul>
+        <img src="./assets/search.png" class="w-7 mr-5" alt="">
+    </div>
+    </div>
+    </nav>
+    <!-- ****************************************section-1 ********************************************** -->
+
+    <section class="hero text-[#fff] flex justify-end items-center">
+      <div class=" bg-[#000] pb-4 lg:bg-[transparent] lg:w-1/2 float-right flex flex-col items-center gap-y-10">
+          <img class="block mt-[50px] lg:hidden" src="assets/rode-res-1.jpg" alt="">
+          <img class="w-5/6" src="assets/rode1.svg" alt="">
+          <div class="w-5/6 sm:w-4/6 text-center place-self-center">
+              <h1 class="sm:text-2xl text-lg pb-2">The Revolution is Here</h1>
+              <p class="text-s text-[#8A8A8A] sm:text-lg">
+                  The RØDECaster Pro II is the world's most powerful all-in-one audio solution for streamers, podcasters, musicians, and creators. Take your content to the next level.
+              </p>
+          </div>
+          <div class="flex flex-row font-semibold text-md">
+              <a class="text-themecolor mt-2 mr-4" href="">LEARN MORE > </a>
+              <a class="px-4 py-2 bg-themecolor rounded-full hover:bg-white hover:text-themecolor" href="">BUY NOW</a>
+          </div>
+      </div>
+  </section>
+
+    <!-- ****************************************section-2 ********************************************** -->
+
+  <section class="hero1 flex justify-start items-center">
+      <div class=" bg-[#fff] pb-4 mt-4 lg:bg-[transparent] lg:w-1/2 flex flex-col items-center gap-y-10">
+          <img class="w-5/6" src="assets/rode-text2.svg" alt="">
+          <div class="w-5/6 sm:w-4/6 text-center place-self-center">
+              <h1 class="sm:text-2xl text-lg pb-2">Your Search For The Perfect Headphones Is Over</h1>
+              <p class="text-s sm:text-lg text-[#636383]">
+                  Experience sound like never before with the NTH-100s. Exceptional sonic performance, superior comfort and iconic looks that inspires creativity.
+              </p>
+          </div>
+          <div class="flex flex-row font-semibold text-md">
+              <a class="text-themecolor mt-2 mr-4" href="">LEARN MORE > </a>
+              <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full  hover:text-themecolor hover:bg-white" href="">BUY NOW</a>
+          </div>
+      </div>
+  </section>
+
+    <!-- ****************************************section-3 ********************************************** -->
+
+  <section class="hero2 flex justify-end items-center">
+      <div class=" bg-[#fff] pb-4 mt-4 lg:bg-[transparent] lg:w-1/2 flex flex-col items-center gap-y-10">
+          <img class="block lg:hidden" src="assets/rode4-res.jpg" alt="">
+          <img class="w-5/6" src="assets/rode-text3.svg" alt="">
+          <div class="w-5/6 sm:w-4/6 text-center place-self-center">
+              <h1 class="sm:text-2xl pb-4 text-lg">Studio-Quality Recording, Made Simple</h1>
+              <p class="text-s sm:text-lg text-[#636383]">
+                  The NT-USB is a studio-quality USB condenser microphone that offers impeccable audio, elegant looks and premium features, all in an easy-to-use form factor, the NT-USB will have you sounding like a pro in seconds.
+              </p>
+          </div>
+          <div class="flex flex-row font-semibold text-md">
+              <a class="text-themecolor mt-2 mr-4" href="">LEARN MORE > </a>
+              <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full hover:text-themecolor hover:bg-white" href="">BUY NOW</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- ****************************************section-4 ********************************************** -->
+
+  <section class="hero3 flex justify-start items-center">
+      <div class=" bg-[#fff] lg:text-[#fff] pb-4 mt-4 lg:bg-[transparent] lg:w-1/2 flex flex-col items-center gap-y-10">
+          <img class="block lg:hidden" src="assets/rode5-res.jpg" alt="">
+          <img class="w-5/6 hidden lg:block" src="assets/rode-text4.svg" alt="">
+          <img class="w-5/6 block lg:hidden" src="assets/rode-text4-res.svg" alt="">
+          <div class="w-5/6 sm:w-4/6 text-center place-self-center">
+              <h1 class="sm:text-2xl text-lg pb-2">Broadcast-grade Dynamic Microphone</h1>
+              <p class="text-s sm:text-lg text-[#636383] lg:text-[#D1A8D7]">
+                  Give your voice that rich, broadcast sound with the PodMic. Perfect for livestreaming, voice-over, podcasting and gameplay.
+              </p>
+          </div>
+          <div class="flex flex-row font-semibold text-md">
+              <a class="text-themecolor mt-2 mr-4" href="">LEARN MORE > </a>
+              <a class="px-4 py-2 bg-themecolor text-[#fff] rounded-full hover:text-themecolor hover:bg-white" href="">BUY NOW</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- ****************************************section-5 ********************************************** -->
+
+  <section class="hero5 flex justify-start items-center">
+      <div class=" bg-[#fff] lg:text-[#fff] pb-4 mt-4 lg:bg-[transparent] lg:w-1/2 flex flex-col items-center gap-y-10">
+          <img class="block lg:hidden" src="assets/rode7-res.jpg" alt="">
+          <img class="w-5/6 hidden lg:block" src="assets/rode-text6.svg" alt="">
+          <img class="w-5/6 block lg:hidden" src="assets/rode-text6-res.svg" alt="">
+          <div class="w-5/6 sm:w-4/6 text-center place-self-center">
+              <h1 class="sm:text-2xl text-lg pb-2">Next Generation Wireless Audio</h1>
+              <p class="text-s sm:text-lg text-[#636383] lg:text-[#9BBDD5]">
+                  The Wireless GO II is the world’s most powerful and versatile wireless microphone. With an unparalleled feature set and ultra-compact form factor, this is next generation wireless audio for every creator.
+              </p>
+          </div>
+          <div class="flex flex-row font-semibold text-md">
+              <a class="text-themecolor mt-2 mr-4" href="">LEARN MORE > </a>
+              <a class="px-4 py-2 bg-themecolor text-[#fff] rounded-full hover:text-themecolor hover:bg-white" href="">BUY NOW</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- ****************************************section-6 ********************************************** -->
+
+  <section class="p-10 text-center">
+      <h1 class="text-4xl text-grey font-bold">Explore The RØDE Range</h1>
+      <div class="text-center p-10 cursor-pointer">
+      <div class="relative bg-grey">
+        <img src="./assets/rode8.png" alt="">
+        <img src="./assets/micro.svg" class="absolute top-[35%]" alt="">
+      </div>
+      <div class="pt-5 relative">
+        <img src="./assets/rode9.jpg" alt="">
+        <img src="./assets/mixer.svg"  class="absolute top-[35%]" alt="">
+      </div>
+      <div class="pt-5 relative">
+        <img src="./assets/rode10.png" alt="">
+        <img src="./assets/software.svg" class="absolute top-[35%]" alt="">
+      </div>
+      <div class="pt-5 relative">
+        <img src="./assets/rode11.png" alt="">
+        <img src="./assets/access.svg" class="absolute top-[35%]" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- ****************************************section-7 ********************************************** -->
+
+  <section class="bg-[#F8F9FA]">
+    <div class="grid grid-cols-1 gap-8 p-8 lg:mx-32 md:grid-cols-2">
+        <div class="flex flex-col text-center bg-[#fff]">
+            <h1 class="text-lg sm:text-2xl font-medium">The Difference Between Large-Diaphragm and Small-Diaphragm Condenser Microphones</h1>
+            <img class="" src="assets/person1.jpeg" alt="">
+            <div class="text-center p-6">
+                <p class="p-4 pb-10 text-lg">We explore the difference between large- and small-diaphragm condenser microphones, and what each is best used for.</p>
+                <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full" href="">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="flex flex-col text-center pt-5  bg-[#fff]">
+            <h1 class="text-lg sm:text-2xl font-medium">What is a Condenser Microphone and When to Use One</h1>
+            <img class="mt-2" src="assets/person2.jpg" alt="">
+            <div class="text-center p-6">
+                <p class="p-4 text-sm sm:text-lg">Learn more about the different types of condenser mics, how they work and the best applications for using them.</p>
+                <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full" href="">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="flex flex-col text-center bg-[#fff]">
+            <h1 class="text-lg sm:text-2xl font-medium">Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now</h1>
+            <img src="assets/person3.jpg" alt="">
+            <div class="text-center p-6">
+                <p class="p-4 pb-10 text-lg">Firmware version 1.0.7 includes key feature additions, such as custom routing for USB and Bluetooth outputs, and more.</p>
+                <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full" href="">LEARN MORE</a>
+            </div>
+        </div>
+        <div class="flex flex-col text-center bg-[#fff]">
+            <h1 class="text-lg sm:text-2xl font-medium py-4">The RØDECaster Pro II Is Shipping Now</h1>
+            <img src="assets/person4.jpg" alt="">
+            <div class="text-center p-6">
+                <p class="p-4 pb-10 text-lg">The world’s most powerful all-in-one audio solution for content creators is now available worldwide.</p>
+                <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full" href="">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ****************************************footer ********************************************** -->
+
+<footer>
+    <div class="h-24 mb-4 w-full border-b-2">
+
+    </div>
+    <div class="lg:mx-8 gap-4 xl:mx-44 border-b-2 pb-4 flex flex-col items-center lg:flex-row justify-around">
+        <div>
+            <img src="assets/footer-logo.svg" alt="">
+        </div>
+        <div class="hidden sm:flex flex-row justify-around w-full">
+            <div class="flex flex-col gap-2">
+                <h2 class="font-bold mb-2">Products</h2>
+                <p>Microphones</p>
+                <p>Headphones</p>
+                <p>Interfaces and Mixers</p>
+                <p>Accessories</p>
+                <p>software</p>
+                <p>Apparel</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h2 class="font-bold mb-2">Support</h2>
+                <p>Contack RØDE</p>
+                <p>Service Centre</p>
+                <p>Warranty</p>
+                <p>Where to Buy</p>
+            </div>
+            <div class="flex flex-col gap-2">
+                <h2 class="font-bold mb-2">Company</h2>
+                <p>About RØDE</p>
+                <p>News and Info</p>
+                <p>Job Opportunities</p>
+                <h2 class="font-bold">Account</h2>
+                <p>Manage your Account</p>
+                <p>Apparel</p>
+            </div>
+        </div>
+        <section class="w-full sm:hidden text-xl mx-4 flex flex-col">
+            <div class="flex flex-row pt-2 pb-2 border-t-2 justify-between">
+                <p>Products</p>
+                <p class="text-4xl">+</p>
+            </div>
+            <div class="flex flex-row pt-2 pb-2 border-t-2 justify-between">
+                <p>Support</p>
+                <p class="text-4xl">+</p>
+            </div>
+            <div class="flex flex-row pt-2 pb-2 border-t-2 justify-between">
+                <p>Company</p>
+                <p class="text-4xl">+</p>
+            </div>
+            <div class="flex flex-row pt-2 pb-2 border-t-2 border-b-2 justify-between">
+                <p>Account</p>
+                <p class="text-4xl">+</p>
+            </div>
+        </section>
+        <div class="flex flex-col items-center gap-2 text-end lg:items-end">
+            <h1 class="text-2xl mb-2">Subscribe to our latest news and offers</h1>
+            <div>
+                <a class="px-4 py-2 text-[#fff] bg-themecolor rounded-full" href="">LEARN MORE</a> 
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-col-reverse items-center gap-4 lg:flex-row m-4 justify-around">
+        <p class="text-xs">© 2022 RØDE All Rights Reserved.</p>
+        <p>Privacy Policy | Terms & Conditions</p>
+        <div>
+            <i class="fa-brands text-lg text-[#AD9970] mr-4 fa-facebook"></i>
+            <i class="fa-brands text-lg text-[#AD9970] mr-4 fa-twitter"></i>
+            <i class="fa-brands text-lg text-[#AD9970] mr-4 fa-instagram"></i>
+            <i class="fa-brands text-lg text-[#AD9970] mr-4 fa-youtube"></i>
+            <i class="fa-brands text-lg text-[#AD9970] mr-4 fa-tiktok"></i>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
+
+</body>
+</html>
